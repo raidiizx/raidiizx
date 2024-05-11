@@ -1,0 +1,41 @@
+@font-face {
+    font-family: a;
+    src: url(font/ProtestRiot-Regular.ttf);
+}
+
+* {
+    background-color: #282a35;
+}
+
+body {
+    padding: 20px;
+    max-width: 80ch;
+    margin: 0 1rem;
+    margin: auto;
+    font-family: a;
+    line-height: 1.5;
+    color: #eceff4;
+    font-weight: normal;
+}
+
+.top-nav-mid {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.3;
+    overflow: auto;
+}
+
+.snow {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
